@@ -1,6 +1,6 @@
 {
   "name": "@pianoforte/eslint-config-vue",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Pianoforte style eslint-config for vue",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,9 @@
   "publishConfig": {
     "access": "public"
   },
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/pianoforte/eslint-config.git"
@@ -28,7 +30,7 @@
   },
   "homepage": "https://github.com/team-pianoforte/eslint-config",
   "dependencies": {
-    "@pianoforte/eslint-config": "^0.1.1",
+    "@pianoforte/eslint-config": "^0.1.2",
     "@vue/eslint-config-standard": "^5.1.2",
     "eslint-plugin-vue": "^6.2.2"
   },
