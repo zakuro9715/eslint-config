@@ -6,4 +6,4 @@ Pianoforte style eslint configs
 
 - @pianoforte/eslint-config : basic config
 - @pianoforte/eslint-config-vue : vue config
-
+- @pianoforte/eslint-config-vue : nuxt config
