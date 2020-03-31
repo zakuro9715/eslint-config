@@ -12,6 +12,7 @@
   "publishConfig": {
     "access": "public"
   },
+  "files": ["index.js"],
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/team-pianoforte/eslint-config.git"
