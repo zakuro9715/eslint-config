@@ -4,9 +4,9 @@ Pianoforte style eslint configs
 
 ## packages
 
-- @pianoforte/eslint-config : basic config
-- @pianoforte/eslint-config-vue : vue config
-- @pianoforte/eslint-config-vue : nuxt config
+- [@pianoforte/eslint-config](./packages/eslint-config)
+- [@pianoforte/eslint-config-vue](./packages/eslint-config-vue)
+- [@pianoforte/eslint-config-nuxt](./packages/eslint-config-nuxt)
 
 ## development
 
