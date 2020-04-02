@@ -4,7 +4,7 @@
   "description": "Pianoforte style eslint config",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint --ext .js --ignore-path ../../.gitignore todomvc"
+    "lint": "eslint --ext .js --ignore-path ../../.gitignore ."
   },
   "engines": {
     "node": ">=12"

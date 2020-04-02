@@ -4,7 +4,7 @@
   "description": "Pianoforte style eslint-config for vue",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint --ext .js,.html --ignore-path ../../.gitignore todomvc"
+    "lint": "eslint --ext .js,.html --ignore-path ../../.gitignore ."
   },
   "engines": {
     "node": ">=12"
