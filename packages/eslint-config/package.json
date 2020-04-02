@@ -30,6 +30,7 @@
   },
   "homepage": "https://github.com/team-pianoforte/eslint-config",
   "dependencies": {
+    "babel-eslint": "^10.1.0",
     "eslint-plugin-import": "^2.20.2"
   },
   "devDependencies": {
