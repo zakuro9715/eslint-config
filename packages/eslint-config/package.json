@@ -39,7 +39,7 @@
   },
   "devDependencies": {
     "eslint": "^6.8.0",
-    "eslint-config-rule-tester": "github:zakuro9715/eslint-config-rule-tester#check-invalid-code",
+    "eslint-config-rule-tester": "github:zakuro9715/eslint-config-rule-tester#dev",
     "eslint-find-rules": "^3.4.0",
     "glob": "^7.1.6",
     "mocha": "^7.1.1"
