@@ -18,14 +18,14 @@ module.exports = {
   },
   rules: {
     /* eslint-disable quote-props */
-    'import/no-unresolved': 0,
-    'no-debugger': 1,
-    'no-console': 1,
-    'no-extra-boolean-cast': 0,
+    'import/no-unresolved': 'off',
+    'no-debugger': 'warn',
+    'no-console': 'warn',
+    'no-extra-boolean-cast': 'off',
     'no-multiple-empty-lines': ['error', { max: 2 }],
     'comma-dangle': ['error', 'always-multiline'],
     'semi': ['error', 'never'],
-    'space-before-function-paren': 0,
+    'space-before-function-paren': 'off',
     /* eslint-enable */
   },
 }
