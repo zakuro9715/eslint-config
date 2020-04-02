@@ -20,6 +20,8 @@ module.exports = {
   rules: {
     /* eslint-disable quote-props */
     'import/no-unresolved': 'off',
+    'array-bracket-newline': ['error', 'consistent'],
+    'array-bracket-spacing': ['error', 'never'],
     'no-debugger': 'warn',
     'no-console': 'warn',
     'no-extra-boolean-cast': 'off',
