@@ -4,7 +4,8 @@
   "scripts": {
     "bootstrap-ci": "npm run bootstrap -- --ci",
     "bootstrap": "lerna bootstrap --hoist",
-    "lint": "lerna run lint"
+    "lint": "lerna run lint",
+    "publish": "lerna publish"
   },
   "devDependencies": {
     "lerna": "^3.20.2"
