@@ -1,6 +1,11 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "bootstrap-ci": "npm run bootstrap -- --ci",
+    "bootstrap": "lerna bootstrap --hoist",
+    "lint": "lerna run lint"
+  },
   "devDependencies": {
     "lerna": "^3.20.2"
   }
