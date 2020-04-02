@@ -8,6 +8,6 @@ const pattern = path.join(__dirname, 'rules', './**/*.js')
 glob.sync(pattern).forEach((file) => {
   describe('rules', () => {
     const test = require(file)
-    configTester('test', config, wrapTest(test))
+    configTester(path.basename(file), config, wrapTest(test))
   })
 })
