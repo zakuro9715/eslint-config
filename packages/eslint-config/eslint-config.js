@@ -27,6 +27,12 @@ module.exports = {
     'array-bracket-spacing': 'off',
     'array-element-newline': 'off',
 
+    // function
+    'arrow-body-style': ['error', 'as-needed'],
+    'arrow-parens': ['error', 'always'],
+    'func-names': ['error', 'never'],
+    'func-style': 'off',
+
     'no-debugger': 'warn',
     'no-console': 'warn',
     'no-extra-boolean-cast': 'off',

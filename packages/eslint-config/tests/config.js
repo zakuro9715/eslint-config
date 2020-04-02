@@ -2,6 +2,7 @@ const config = require('../index')
 
 const disables = [
   'no-unused-expressions',
+  'no-unused-vars',
   'eol-last',
 ]
 
