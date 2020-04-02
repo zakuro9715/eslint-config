@@ -24,5 +24,5 @@ const deindent = (s, n) => s
 
 module.exports.wrapTest = (rule) => ({
   valid: rule.valid.map((s) => deindent(s, 6)),
-  invalid: rule.invalid.map((v) => ({...v, code: deindent(v.code, 8),})),
+  invalid: rule.invalid.map((v) => ({ ...v, code: deindent(v.code, 8) })),
 })
