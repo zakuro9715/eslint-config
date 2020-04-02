@@ -11,9 +11,9 @@ module.exports = {
     sourceType: 'module',
     parser: 'babel-eslint',
   },
-  globals: {
-    window: true,
-    document: true,
+  env: {
+    browser: true,
+    node: true,
   },
   rules: {
     'import/no-unresolved': 0,
