@@ -16,7 +16,8 @@
     "access": "public"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "eslint-config.js"
   ],
   "repository": {
     "type": "git",
