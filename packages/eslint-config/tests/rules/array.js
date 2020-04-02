@@ -1,6 +1,10 @@
 module.exports = {
   valid: [
     '[]',
+    `[
+       0,
+     ]`,
+    ,
   ],
   invalid: [
     {
