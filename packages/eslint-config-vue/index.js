@@ -1,7 +1,1 @@
-module.exports = {
-  extends: [
-    'plugin:vue/essential',
-    '@vue/standard',
-    '@pianoforte',
-  ],
-}
+module.exports = require('./eslint-config')
