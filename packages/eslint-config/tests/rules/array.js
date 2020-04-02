@@ -1,17 +1,23 @@
 module.exports = {
   valid: [
     '[]',
-    `[
-       0,
+    '[1, 2, 3]',
+    `[ 0,
+       1,
+       2,
      ]`,
-    ,
+    `[ 0,
+       1,
+     ]`,
+    `[ 0, 1,
+       2, 3 ]`,
+    `[ 0, 1, 2 ]`,
+    '[].map((v) => v)',
   ],
-  invalid: [
-    {
-      code: '[0 ]',
-      errors: [
-        "There should be no space before ']'.",
-      ],
-    },
-  ],
+  invalid: [{
+    code: '[].map((v) => { })',
+    errors: [
+      'Expected to return a value in arrow function.',
+    ],
+  }],
 }
