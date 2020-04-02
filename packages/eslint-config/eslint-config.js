@@ -32,6 +32,12 @@ module.exports = {
     'arrow-parens': ['error', 'always'],
     'func-names': ['error', 'never'],
     'func-style': 'off',
+    'prefer-arrow-callback': 'error',
+    'space-before-function-paren': ['error', {
+      'asyncArrow': 'always',
+      'anonymous': 'always',
+      'named': 'never',
+    }],
 
     'no-debugger': 'warn',
     'no-console': 'warn',
@@ -39,7 +45,6 @@ module.exports = {
     'no-multiple-empty-lines': ['error', { max: 2 }],
     'comma-dangle': ['error', 'always-multiline'],
     'semi': ['error', 'never'],
-    'space-before-function-paren': 'off',
     /* eslint-enable */
   },
 }
