@@ -21,9 +21,7 @@ export default class Store {
      *
      * @returns {ItemList} Current array of todos
      */
-    this.getLocalStorage = () => {
-      return liveTodos || JSON.parse(localStorage.getItem(name) || '[]')
-    }
+    this.getLocalStorage = () => liveTodos || JSON.parse(localStorage.getItem(name) || '[]')
 
     /**
      * Write the local ItemList to localStorage.
@@ -54,7 +52,7 @@ export default class Store {
     const todos = this.getLocalStorage()
     let k
 
-    callback(todos.filter(todo => {
+    callback(todos.filter((todo) => {
       for (k in query) {
         if (query[k] !== todo[k]) {
           return false
@@ -117,7 +115,7 @@ export default class Store {
   remove(query, callback) {
     let k
 
-    const todos = this.getLocalStorage().filter(todo => {
+    const todos = this.getLocalStorage().filter((todo) => {
       for (k in query) {
         if (query[k] !== todo[k]) {
           return true
@@ -139,7 +137,7 @@ export default class Store {
    * @param {function(number, number, number)} callback Called when the count is completed
    */
   count(callback) {
-    this.find(emptyItemQuery, data => {
+    this.find(emptyItemQuery, (data) => {
       const total = data.length
 
       let i = total

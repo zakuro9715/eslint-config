@@ -6,5 +6,5 @@ const disables = [
   'eol-last',
 ]
 
-disables.forEach((key) => config.rules[key] = 'off')
+disables.forEach((key) => { config.rules[key] = 'off' })
 module.exports = config
