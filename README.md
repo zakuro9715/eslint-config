@@ -1,4 +1,4 @@
-# Pianoforte's eslint config
+# Pianoforte's eslint config ![](https://github.com/team-pianoforte/eslint-config/workflows/node/badge.svg)
 
 Pianoforte style eslint configs
 
