@@ -5,8 +5,8 @@
 
   var router = new Router();
 
-  ['all', 'active', 'completed'].forEach(function (visibility) {
-    router.on(visibility, function () {
+  ['all', 'active', 'completed'].forEach((visibility) => {
+    router.on(visibility, () => {
       app.visibility = visibility
     })
   })

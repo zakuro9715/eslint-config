@@ -8,14 +8,10 @@
       return todos
     },
     active: function (todos) {
-      return todos.filter(function (todo) {
-        return !todo.completed
-      })
+      return todos.filter((todo) => !todo.completed)
     },
     completed: function (todos) {
-      return todos.filter(function (todo) {
-        return todo.completed
-      })
+      return todos.filter((todo) => todo.completed)
     },
   }
 
@@ -54,7 +50,7 @@
           return this.remaining === 0
         },
         set: function (value) {
-          this.todos.forEach(function (todo) {
+          this.todos.forEach((todo) => {
             todo.completed = value
           })
         },
