@@ -22,6 +22,13 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
+    - name: cache
+      uses: actions/cache@master
+      with:
+        path: |
+          node_modules
+          */*/node_momdules
+        key: ${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
     - run: npm ci
     - run: npm run lint
     - run: npm run test
