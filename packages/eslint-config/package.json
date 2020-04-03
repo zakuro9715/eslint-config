@@ -7,7 +7,7 @@
     "lint": "eslint --ext .js --ignore-path ../../.gitignore .",
     "rules": "eslint-find-rules -c",
     "unused-rules": "eslint-find-rules -u -n",
-    "test": "./node_modules/mocha/bin/mocha --color tests/test.js"
+    "test": "mocha --color tests/test.js"
   },
   "engines": {
     "node": ">=12"

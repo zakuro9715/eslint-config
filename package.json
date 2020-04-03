@@ -4,7 +4,7 @@
   "scripts": {
     "install-packages": "lerna exec -- npm install",
     "postinstall": "npm run install-packages && npm run bootstrap",
-    "bootstrap": "lerna bootstrap",
+    "bootstrap": "lerna bootstrap --hoist",
     "lint": "lerna run lint",
     "publish": "lerna publish",
     "clean": "lerna clean && rm -rf ./node_modules",
