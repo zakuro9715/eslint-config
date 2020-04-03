@@ -24,7 +24,7 @@ module.exports = {
     `,
     errors: [
       "Unexpected named function 'f'.",
-      "Unexpected space before function parentheses.",
+      'Unexpected space before function parentheses.',
       'Missing space before function parentheses.',
       'Expected parentheses around arrow function argument.',
       'Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`.',
