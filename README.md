@@ -11,7 +11,6 @@ Pianoforte style eslint configs
 ## development
 
 ```sh
-$ npm install
-$ npm run bootstrap
+$ npm install   # run `npm install` for all packages. Then run `lerna bootrap`.
 $ npm run lint
 ```
