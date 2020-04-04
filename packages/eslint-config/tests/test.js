@@ -1,13 +1,5 @@
 const path = require('path')
-const glob = require('glob')
-const config = require('./config')
-const { wrapTest } = require('./helpers')
-const configTester = require('eslint-config-rule-tester')
+const config = require('../eslint-config')
+const { testRules } = require('../../../test-helper')
 
-const pattern = path.join(__dirname, 'rules', './**/*.js')
-glob.sync(pattern).forEach((file) => {
-  describe('rules', () => {
-    const test = require(file)
-    configTester(path.basename(file), config, wrapTest(test))
-  })
-})
+testRules(config, path.join(__dirname, 'rules', './**/*.js'))
