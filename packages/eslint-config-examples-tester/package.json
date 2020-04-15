@@ -40,6 +40,8 @@
   },
   "dependencies": {
     "@types/eslint": "^6.8.0",
-    "eslint": "^6.8.0"
+    "@types/glob": "^7.1.1",
+    "eslint": "^6.8.0",
+    "glob": "^7.1.6"
   }
 }
