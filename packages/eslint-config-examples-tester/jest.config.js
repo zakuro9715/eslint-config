@@ -2,7 +2,7 @@ module.exports = {
   roots: [
   ],
   testMatch: [
-    '**/tests/jest.ts',
+    '**/jest/*.test.ts',
   ],
   transform: {
     "^.+\\.ts$": "ts-jest"
