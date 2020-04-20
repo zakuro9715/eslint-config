@@ -12,4 +12,10 @@ module.exports = {
       ignores: ['pre', 'textarea', 'nuxt-link', 'router-link'].concat(INLINE_ELEMENTS),
     }],
   },
+  overrides: [{
+    files: ['**/*.vue'],
+    rules: {
+      'node/no-unsupported-features/es-syntax': 'off',
+    },
+  }],
 }
