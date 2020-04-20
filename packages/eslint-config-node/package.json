@@ -1,0 +1,43 @@
+{
+  "name": "@pianoforte/eslint-config-node",
+  "version": "0.5.0",
+  "description": "Pianoforte style eslint-config for node",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --ext .js,.html --ignore-path ../../.gitignore ."
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "index.js",
+    "eslint-config.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pianoforte/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "z@kuro <z@kuro.red>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/team-pianoforte/eslint-config/issues"
+  },
+  "homepage": "https://github.com/team-pianoforte/eslint-config",
+  "dependencies": {
+    "@pianoforte/eslint-config": "^0.5.0",
+    "eslint-plugin-node": "^11.1.0"
+  },
+  "peerDependencies": {
+    "eslint": "^6.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
+}
