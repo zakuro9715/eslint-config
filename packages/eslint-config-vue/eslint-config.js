@@ -8,14 +8,23 @@ module.exports = {
     '@pianoforte',
   ],
   rules: {
+    'node/no-unsupported-features/es-syntax': 'off',
     'vue/singleline-html-element-content-newline': ['error', {
-      ignores: ['pre', 'textarea', 'nuxt-link', 'router-link'].concat(INLINE_ELEMENTS),
+      ignores: [
+        'pre',
+        'textarea',
+        'h1',
+        'h2',
+        'h3',
+        'h4',
+        'h5',
+        'h6',
+        'tr',
+        'td',
+        'th',
+        'nuxt-link',
+        'router-link',
+      ].concat(INLINE_ELEMENTS),
     }],
   },
-  overrides: [{
-    files: ['**/*.vue'],
-    rules: {
-      'node/no-unsupported-features/es-syntax': 'off',
-    },
-  }],
 }
