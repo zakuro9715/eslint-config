@@ -3,6 +3,7 @@ module.exports = {
     'plugin:vue/essential',
     'plugin:vue/strongly-recommended',
     'plugin:vue/recommended',
+    '@vue/standard',
     '@pianoforte',
   ],
 }
