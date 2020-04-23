@@ -32,7 +32,7 @@
   "bugs": {
     "url": "https://github.com/team-pianoforte/eslint-config/issues"
   },
-  "homepage": "https://github.com/team-pianoforte/eslint-config",
+  "homepage": "https://github.com/team-pianoforte/eslint-config/tree/master/packages/eslint-config",
   "dependencies": {
     "babel-eslint": "^10.1.0",
     "eslint-config-standard": "^14.1.1"
