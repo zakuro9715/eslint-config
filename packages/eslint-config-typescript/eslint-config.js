@@ -74,4 +74,15 @@ module.exports = {
       allowBoolean: true,
     }],
   },
+  overrides: [
+    {
+      files: ['**/*.vue'],
+      rules: {
+        '@typescript-eslint/naming-convention': ['error', ...namingConventions, {
+          selector: 'property',
+          format: ['camelCase', 'PascalCase'], // For components
+        }],
+      },
+    },
+  ],
 }
