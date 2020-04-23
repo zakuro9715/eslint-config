@@ -13,7 +13,7 @@ module.exports = {
   rules: {
     '@typescript-eslint/explicit-function-return-type': 'off',
     'no-dupe-class-members': 'off',
-    '@typescript-eslint/no-dup-class-members': 'error',
+    '@typescript-eslint/no-dupe1-class-members': 'error',
     '@typescript-eslint/no-explicit-any': 'off',
     'no-useless-constructor': 'off',
     '@typescript-eslint/no-useless-constructor': 'error',
