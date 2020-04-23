@@ -11,7 +11,7 @@ module.exports = {
   ],
   parser: '@typescript-eslint/parser',
   rules: {
-    '@typescript-eslint/explicit-function-return-type': ['error', { allowExpression: true }],
+    '@typescript-eslint/explicit-function-return-type': 'off',
     'no-dupe-class-members': 'off',
     '@typescript-eslint/no-dup-class-members': 'error',
     '@typescript-eslint/no-explicit-any': 'off',
