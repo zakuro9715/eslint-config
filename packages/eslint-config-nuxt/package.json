@@ -1,6 +1,6 @@
 {
   "name": "@pianoforte/eslint-config-nuxt",
-  "version": "0.11.0",
+  "version": "0.12.0",
   "description": "Pianoforte style eslint-config for nuxt",
   "main": "index.js",
   "scripts": {
@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/team-pianoforte/eslint-config/tree/master/packages/eslint-config-nuxt",
   "dependencies": {
-    "@pianoforte/eslint-config-vue": "^0.11.0"
+    "@pianoforte/eslint-config-vue": "^0.12.0"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
