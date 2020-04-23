@@ -72,6 +72,7 @@ module.exports = {
     '@typescript-eslint/restrict-template-expressions': ['error', {
       allowNumber: true,
       allowBoolean: true,
+      allowAny: true,
     }],
   },
   overrides: [
