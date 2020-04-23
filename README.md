@@ -5,6 +5,7 @@ Pianoforte style eslint configs
 ## packages
 
 - [@pianoforte/eslint-config](./packages/eslint-config)
+- [@pianoforte/eslint-config-typescript](./packages/eslint-config-typescript)
 - [@pianoforte/eslint-config-vue](./packages/eslint-config-vue)
 - [@pianoforte/eslint-config-nuxt](./packages/eslint-config-nuxt)
 
