@@ -40,6 +40,11 @@ module.exports = {
       'named': 'never',
     }],
 
+    // vars
+    'no-unused-vars': ['error', {
+      argsIgnorePattern: '^_',
+    }],
+
     'no-debugger': 'warn',
     'no-console': 'warn',
     'no-extra-boolean-cast': 'off',
