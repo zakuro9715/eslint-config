@@ -19,10 +19,6 @@
     "index.js",
     "eslint-config.js"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/team-pianoforte/eslint-config.git"
-  },
   "keywords": [
     "eslint",
     "eslintconfig"
@@ -33,10 +29,14 @@
     "url": "https://z@kuro.red"
   },
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/team-pianoforte/eslint-config.git"
+  },
+  "homepage": "https://github.com/team-pianoforte/eslint-config/tree/master/packages/eslint-config",
   "bugs": {
     "url": "https://github.com/team-pianoforte/eslint-config/issues"
   },
-  "homepage": "https://github.com/team-pianoforte/eslint-config/tree/master/packages/eslint-config",
   "dependencies": {
     "babel-eslint": "^10.1.0",
     "eslint-config-standard": "^14.1.1"

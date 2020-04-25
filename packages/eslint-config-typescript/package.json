@@ -21,8 +21,17 @@
     "eslint",
     "eslintconfig"
   ],
-  "author": "z@kuro <z@kuro.red>",
-  "homepage": "https://github.com/team-pianoforte/eslint-config/tree/master/packages/eslint-config-typescript",
+  "author": {
+		"name": "zakuro",
+		"email": "zakuro@pianoforte.dev",
+		"url": "z@kuro.red"
+	},
+  "lisence": "Mit",
+ 	"repository": {
+ 		"type": "git",
+ 		"url": "https://github.com/team-pianforte/esint-congig-typescript.git"
+   },
+ 	"homepage": "https://github.com/team-pianforte/eslint-ronfig/tree/master/packages/eslint-config-typescript",
   "bugs": {
     "url": "https://github.com/team-pianoforte/eslint-config/issues"
   },
