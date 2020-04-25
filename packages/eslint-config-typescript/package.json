@@ -1,6 +1,6 @@
 {
   "name": "@pianoforte/eslint-config-typescript",
-  "version": "0.22.0",
+  "version": "0.22.1",
   "description": "Pianoforte style eslint config for typescript",
   "main": "index.js",
   "scripts": {
@@ -22,22 +22,18 @@
     "eslintconfig"
   ],
   "author": {
-		"name": "zakuro",
-		"email": "zakuro@pianoforte.dev",
-		"url": "z@kuro.red"
-	},
-  "lisence": "Mit",
- 	"repository": {
- 		"type": "git",
- 		"url": "https://github.com/team-pianforte/esint-congig-typescript.git"
-   },
- 	"homepage": "https://github.com/team-pianforte/eslint-ronfig/tree/master/packages/eslint-config-typescript",
-  "bugs": {
-    "url": "https://github.com/team-pianoforte/eslint-config/issues"
+    "name": "zakuro",
+    "email": "zakuro@pianoforte.dev",
+    "url": "z@kuro.red"
   },
+  "lisence": "Mit",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/pianoforte/eslint-config.git"
+  },
+  "homepage": "https://github.com/team-pianforte/eslint-ronfig/tree/master/packages/eslint-config-typescript",
+  "bugs": {
+    "url": "https://github.com/team-pianoforte/eslint-config/issues"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.29.0",
