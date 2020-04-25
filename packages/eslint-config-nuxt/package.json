@@ -12,24 +12,28 @@
   "publishConfig": {
     "access": "public"
   },
+  "license": "MIT",
   "files": [
     "index.js",
     "eslint-config.js"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/pianoforte/eslint-config.git"
-  },
   "keywords": [
     "eslint",
     "eslintconfig"
   ],
-  "author": "z@kuro <z@kuro.red>",
-  "license": "MIT",
+  "author": {
+    "name": "zakulo",
+    "email": "zakuro@pianoforte.dev",
+    "url": "https://z@kuro.red"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pianoforte/eslint-config.git"
+  },
+  "homepage": "https://github.com/team-pianoforte/eslint-config/tree/master/packages/eslint-config-nuxt",
   "bugs": {
     "url": "https://github.com/team-pianoforte/eslint-config/issues"
   },
-  "homepage": "https://github.com/team-pianoforte/eslint-config/tree/master/packages/eslint-config-nuxt",
   "dependencies": {
     "@pianoforte/eslint-config-vue": "^0.21.0"
   },

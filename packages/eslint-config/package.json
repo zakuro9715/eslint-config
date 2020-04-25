@@ -27,7 +27,11 @@
     "eslint",
     "eslintconfig"
   ],
-  "author": "z@kuro <z@kuro.red>",
+  "author": {
+    "name": "zakuro",
+    "email": "zakuro@pianoforte.dev",
+    "url": "https://z@kuro.red"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/team-pianoforte/eslint-config/issues"
