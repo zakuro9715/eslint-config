@@ -1,7 +1,7 @@
 {
-  "name": "@pianoforte/eslint-config-typescript",
+  "name": "@pianoforte/eslint-config-vue-typescript",
   "version": "0.26.0",
-  "description": "Pianoforte style eslint config for typescript",
+  "description": "Pianoforte style eslint config for vue with typescript",
   "main": "index.js",
   "scripts": {
     "lint": "eslint --ext .js,.html --ignore-path ../../.gitignore ."
@@ -15,8 +15,7 @@
   "license": "MIT",
   "files": [
     "index.js",
-    "eslint-config.js",
-    "naming-conventions.js"
+    "eslint-config.js"
   ],
   "keywords": [
     "eslint",
@@ -38,18 +37,23 @@
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.29.0",
+    "@typescript-eslint/parser": "^2.29.0",
     "eslint": "^6.8.0",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-vue": "^6.2.2",
     "typescript": "^3.8.3"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.29.0",
     "eslint-plugin-import": "^2.20.2",
-    "eslint-plugin-promise": "^4.2.1"
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-vue": "^6.2.2"
   },
   "dependencies": {
-    "@pianoforte/eslint-config": "^0.26.0",
-    "@typescript-eslint/parser": "^2.29.0"
+    "@pianoforte/eslint-config-typescript": "^0.26.0",
+    "@pianoforte/eslint-config-vue": "^0.26.0",
+    "@typescript-eslint/parser": "^2.29.0",
+    "@vue/eslint-config-typescript": "^5.0.2"
   }
 }
