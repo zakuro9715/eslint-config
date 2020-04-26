@@ -1,31 +1,3 @@
-const namingConventions = [
-  {
-    selector: 'default',
-    format: ['camelCase'],
-  },
-  {
-    selector: 'variable',
-    format: ['camelCase', 'UPPER_CASE', 'PascalCase' /* for Vue */],
-    leadingUnderscore: 'allow',
-  },
-  {
-    selector: 'variableLike',
-    format: ['camelCase'],
-    leadingUnderscore: 'allow',
-  },
-  {
-    selector: 'memberLike',
-    modifiers: ['private'],
-    format: ['camelCase'],
-    leadingUnderscore: 'allow',
-  },
-  {
-    selector: 'typeLike',
-    format: ['PascalCase'],
-  },
-]
-
-
 module.exports = {
   extends: [
     'eslint:recommended',
@@ -54,7 +26,7 @@ module.exports = {
       accessibility: 'no-public',
     }],
     '@typescript-eslint/method-signature-style': ['error', 'property'],
-    '@typescript-eslint/naming-convention': ['error', ...namingConventions],
+    '@typescript-eslint/naming-convention': ['error', ...require('./naming-conventions')],
     '@typescript-eslint/no-explicit-any': 'off',
     'no-dupe-class-members': 'off',
     '@typescript-eslint/no-dupe-class-members': 'error',
