@@ -11,6 +11,14 @@ module.exports = {
     sourceType: 'module',
     parser: 'babel-eslint',
   },
+  overrides: [
+    {
+      files: '**/*.spec.{j,t}s',
+      env: {
+        jest: true,
+      },
+    },
+  ],
   rules: {
     /* eslint-disable quote-props */
     'accessor-pairs': ['error'],
