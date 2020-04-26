@@ -51,4 +51,12 @@ module.exports = {
       allowAny: true,
     }],
   },
+  overrides: [
+    {
+      files: ['**/*.!(ts|tsx)'],
+      rules: {
+        '@typescript-eslint/no-var-requires': 'off',
+      },
+    },
+  ],
 }
