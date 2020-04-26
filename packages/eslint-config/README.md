@@ -11,7 +11,7 @@ npm install @pianoforte/eslint-config
 Then install required eslint plugins
 
 ```
-npm install --save-dev eslint-plugin-standard eslint-plugin-promise eslint-plugin-import eslint-plugin-node
+npm install --save-dev eslint-plugin-promise eslint-plugin-import
 ```
 
 ## Configure

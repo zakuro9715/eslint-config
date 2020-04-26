@@ -12,8 +12,8 @@ Then install required eslint plugins
 
 ```sh
 npm install --save-dev \
-  @typescript-eslint/eslint-plugin @typescript-eslint/eslint-parser \
-  eslint-plugin-standard eslint-plugin-promise eslint-plugin-import eslint-plugin-node
+  @typescript-eslint/eslint-plugin @typescript-eslint/parser \
+  eslint-plugin-promise eslint-plugin-import
 ```
 
 ## Configure
