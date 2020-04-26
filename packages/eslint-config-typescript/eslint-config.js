@@ -9,6 +9,9 @@ module.exports = {
     '@typescript-eslint',
   ],
   parser: '@typescript-eslint/parser',
+  parserOptions: {
+    project: 'tsconfig.eslint.json',
+  },
   rules: {
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/member-delimiter-style': ['error', {
