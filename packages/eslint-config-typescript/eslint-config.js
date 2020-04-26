@@ -79,15 +79,4 @@ module.exports = {
       allowAny: true,
     }],
   },
-  overrides: [
-    {
-      files: ['**/*.vue'],
-      rules: {
-        '@typescript-eslint/naming-convention': ['error', ...namingConventions, {
-          selector: 'property',
-          format: ['camelCase', 'PascalCase'], // For components
-        }],
-      },
-    },
-  ],
 }
