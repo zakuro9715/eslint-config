@@ -7,6 +7,9 @@ module.exports = {
     'plugin:vue/recommended',
   ],
   parser: 'vue-eslint-parser',
+  parserOptions: {
+    parser: 'babel-eslint',
+  },
   rules: {
     'node/no-unsupported-features/es-syntax': 'off',
     'vue/singleline-html-element-content-newline': ['error', {
