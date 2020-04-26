@@ -3,7 +3,7 @@
 (function (exports) {
   'use strict'
 
-  var STORAGE_KEY = 'todos-vuejs'
+  const STORAGE_KEY = 'todos-vuejs'
 
   exports.todoStorage = {
     fetch: function () {

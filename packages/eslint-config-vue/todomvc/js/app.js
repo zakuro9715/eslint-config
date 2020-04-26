@@ -3,7 +3,7 @@
 (function (exports) {
   'use strict'
 
-  var filters = {
+  const filters = {
     all: function (todos) {
       return todos
     },
@@ -77,7 +77,7 @@
       },
 
       addTodo: function () {
-        var value = this.newTodo && this.newTodo.trim()
+        const value = this.newTodo && this.newTodo.trim()
         if (!value) {
           return
         }
@@ -86,7 +86,7 @@
       },
 
       removeTodo: function (todo) {
-        var index = this.todos.indexOf(todo)
+        const index = this.todos.indexOf(todo)
         this.todos.splice(index, 1)
       },
 

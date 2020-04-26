@@ -3,7 +3,7 @@
 (function (app, Router) {
   'use strict'
 
-  var router = new Router();
+  const router = new Router();
 
   ['all', 'active', 'completed'].forEach((visibility) => {
     router.on(visibility, () => {
