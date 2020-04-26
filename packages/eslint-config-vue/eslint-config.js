@@ -1,11 +1,12 @@
 const INLINE_ELEMENTS = require('eslint-plugin-vue/lib/utils/inline-non-void-elements.json')
 module.exports = {
   extends: [
+    '@pianoforte',
     'plugin:vue/essential',
     'plugin:vue/strongly-recommended',
     'plugin:vue/recommended',
-    '@pianoforte',
   ],
+  parser: 'vue-eslint-parser',
   rules: {
     'node/no-unsupported-features/es-syntax': 'off',
     'vue/singleline-html-element-content-newline': ['error', {
