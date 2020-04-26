@@ -1,11 +1,10 @@
-/* eslint-env node */
 module.exports = {
   extends: [
     'eslint:recommended',
-    'plugin:node/recommended',
   ],
   plugins: [
     'import',
+    'promise',
   ],
   parserOptions: {
     ecmaVersion: '2020',

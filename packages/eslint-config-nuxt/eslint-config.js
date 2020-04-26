@@ -6,10 +6,4 @@ module.exports = {
   plugins: [
     'nuxt',
   ],
-  overrides: [{
-    files: ['**/*.vue'],
-    rules: {
-      'node/no-missing-import': 'off',
-    },
-  }],
 }
