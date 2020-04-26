@@ -11,13 +11,6 @@
     "test": "lerna run test"
   },
   "devDependencies": {
-    "@types/jest": "^25.2.1",
-    "i": "^0.3.6",
-    "jest": "^25.3.0",
-    "lerna": "^3.20.2",
-    "ts-jest": "^25.3.1"
-  },
-  "dependencies": {
-    "eslint": "^6.8.0"
+    "lerna": "^3.20.2"
   }
 }
