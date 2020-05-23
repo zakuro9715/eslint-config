@@ -29,4 +29,12 @@ Add it to your .eslintrc
 }
 ```
 
+Create tsconfig.eslint.json
+
+```
+{
+  "extends": "tsconfig.json"
+}
+```
+
 See also [@typescript/parser](https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/parser#configuration)
