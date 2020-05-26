@@ -1,17 +1,13 @@
-# @pianoforte/eslint-config
+# @pianoforte/eslint-config-vue
 
-Pianofore style standard eslint config.
+Pianofore style eslint config for vue.
 
 ## Install
 
-```
-npm install @pianoforte/eslint-config
-```
-
-Then install required eslint plugins
+Install config with required plugins.
 
 ```
-npm install --save-dev eslint-plugin-promise eslint-plugin-import
+npm install --save-dev @pianoforte/eslint-config-vue eslint-plugin-vue eslint-plugin-promise eslint-plugin-import
 ```
 
 ## Configure
@@ -20,6 +16,6 @@ Add it to your .eslintrc
 
 ```.eslintrc
 module.exports = {
-  extends: ['@pianoforte']
+  extends: ['@pianoforte/vue']
 }
 ```
