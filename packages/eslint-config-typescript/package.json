@@ -1,6 +1,6 @@
 {
   "name": "@pianoforte/eslint-config-typescript",
-  "version": "0.29.0",
+  "version": "1.0.0",
   "description": "Pianoforte style eslint config for typescript",
   "main": "index.js",
   "scripts": {
@@ -50,7 +50,7 @@
     "eslint-plugin-promise": "^4.2.1"
   },
   "dependencies": {
-    "@pianoforte/eslint-config": "^0.29.0",
+    "@pianoforte/eslint-config": "^1.0.0",
     "@typescript-eslint/parser": "^2.29.0"
   }
 }
