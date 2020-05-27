@@ -1,6 +1,20 @@
 {
   "name": "root",
   "private": true,
+  "author": {
+    "name": "zakuro",
+    "email": "zakuro@pianoforte.dev",
+    "url": "https://za.kuro.red"
+  },
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:team-pianoforte/eslint-config.git"
+  },
+  "homepage": "https://github.com/team-pianoforte/eslint-config",
+  "bugs": {
+    "url": "https://github.com/team-pianoforte/eslint-config/issues"
+  },
   "scripts": {
     "install-packages": "lerna exec -- npm install",
     "postinstall": "npm run install-packages && npm run bootstrap",

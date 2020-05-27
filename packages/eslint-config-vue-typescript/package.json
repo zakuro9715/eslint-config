@@ -12,7 +12,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "license": "MIT",
+  "license": "GPL-3.0",
   "files": [
     "index.js",
     "eslint-config.js"
@@ -29,9 +29,10 @@
   "lisence": "Mit",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/pianoforte/eslint-config.git"
+    "url": "git+ssh://git@github.com/pianoforte/eslint-config.git",
+    "directory": "packages/eslint-config-vue-typescript"
   },
-  "homepage": "https://github.com/team-pianforte/eslint-ronfig/tree/master/packages/eslint-config-typescript",
+  "homepage": "https://github.com/team-pianforte/eslint-ronfig/tree/master/packages/eslint-config-vue-typescript",
   "bugs": {
     "url": "https://github.com/team-pianoforte/eslint-config/issues"
   },
