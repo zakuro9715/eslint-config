@@ -4,11 +4,11 @@ Pianofore style eslint config for vue with typescript.
 
 ## Install
 
-Install config with required plugins
+Install config with required plugins.
 
 ```sh
 npm install --save-dev \
-npm install @pianoforte/eslint-config-typescript
+npm install @pianoforte/eslint-config-vue-typescript
   @typescript-eslint/eslint-plugin @typescript-eslint/parser \
   eslint-plugin-vue eslint-plugin-promise eslint-plugin-import
 ```
@@ -17,7 +17,7 @@ npm install @pianoforte/eslint-config-typescript
 
 Add it to your .eslintrc
 
-```.eslintrc.js
+```.eslintrc
 {
   "extends": ["@pianoforte/vue-typescript"]
 }
@@ -33,6 +33,7 @@ Then create tsconfig.eslint.json
     "src/**/*.jsx",
     "src/**/*.ts",
     "src/**/*.tsx",
+    "src/**/*.vue",
     ".eslintrc.js",
     // And lint target files like .eslintrc.js babel.config.js, postcss.js
   }

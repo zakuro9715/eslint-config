@@ -4,7 +4,7 @@ Pianofore style eslint config for nuxt.
 
 ## Install
 
-Install config with required plugins.
+Install config with eslint plugin.
 
 ```
 npm install --save-dev @pianoforte/eslint-config-nuxt eslint-plugin-nuxt eslint-plugin-vue eslint-plugin-promise eslint-plugin-import

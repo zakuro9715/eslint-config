@@ -4,14 +4,11 @@ Pianofore style eslint config for typescript.
 
 ## Install
 
-```sh
-npm install @pianoforte/eslint-config-typescript
-```
-
-Then install required eslint plugins
+Install config with required plugins
 
 ```sh
 npm install --save-dev \
+npm install @pianoforte/eslint-config-typescript
   @typescript-eslint/eslint-plugin @typescript-eslint/parser \
   eslint-plugin-promise eslint-plugin-import
 ```
@@ -20,13 +17,24 @@ npm install --save-dev \
 
 Add it to your .eslintrc
 
-```json
+```.eslintrc
 {
-  "extends": ["@pianoforte/typescript"],
-  "parserOptions": {
-    "project": "tsconfig.json"
-  }
+  "extends": ["@pianoforte/typescript"]
 }
 ```
 
-See also [@typescript/parser](https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/parser#configuration)
+Then create tsconfig.eslint.json
+
+```tsconfig.eslint.json
+{
+  "extends": "tsconfig.json"
+  "include": {
+    "src/**/*.js",
+    "src/**/*.jsx",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    ".eslintrc.js",
+    // And lint target files like .eslintrc.js babel.config.js, postcss.js
+  }
+}
+```

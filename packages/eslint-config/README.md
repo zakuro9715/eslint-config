@@ -4,14 +4,10 @@ Pianofore style standard eslint config.
 
 ## Install
 
-```
-npm install @pianoforte/eslint-config
-```
-
-Then install required eslint plugins
+Install config with required plugins.
 
 ```
-npm install --save-dev eslint-plugin-promise eslint-plugin-import
+npm install --save-dev @pianoforte/eslint-config eslint-plugin-promise eslint-plugin-import
 ```
 
 ## Configure
