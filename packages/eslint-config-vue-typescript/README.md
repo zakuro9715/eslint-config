@@ -1,4 +1,8 @@
-# @pianoforte/eslint-config
+<h1>
+  @pianoforte/eslint-config
+  <a href="https://badge.fury.io/js/%40pianoforte%2Feslint-config-vue-typescript"><img src="https://badge.fury.io/js/%40pianoforte%2Feslint-config-vue-typescript.svg" alt="npm version" height="18"></a>
+  <a href="https://www.gnu.org/licenses/gpl-3.0"><img src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="License: GPL v3"></a>
+</h1>
 
 Pianofore style eslint config for vue with typescript.
 
