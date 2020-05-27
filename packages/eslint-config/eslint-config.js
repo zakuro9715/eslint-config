@@ -81,6 +81,7 @@ module.exports = {
     'no-multiple-empty-lines': ['error', { max: 2 }],
     'no-unused-vars': ['error'],
     'no-var': ['error'],
+    'object-curly-spacing': ['error', 'always', { arraysInObjects: false, objectsInObjects: false }],
     'prefer-arrow-callback': ['error'],
     'semi': ['error', 'never'],
     'space-before-function-paren': ['error', {
@@ -88,7 +89,7 @@ module.exports = {
       'anonymous': 'always',
       'named': 'never',
     }],
-
+    'switch-colon-spacing': ['error'],
 
     'import/no-unresolved': 'off',
     /* eslint-enable */
