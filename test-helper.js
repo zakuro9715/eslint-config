@@ -24,7 +24,7 @@ const configTester = require('eslint-config-rule-tester')
 
 const deindent = (s, n) => s
   .replace(/^ /, '')
-  .replace(new RegExp(` {${n}}`, 'g'), '')
+  .replace(new RegExp(`^ {${n}}`, 'gm'), '')
   .replace(/ {4}$/g, '')
 
 const wrapTest = (rule) => ({
