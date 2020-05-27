@@ -14,7 +14,7 @@ npm install --save-dev @pianoforte/eslint-config-vue eslint-plugin-vue eslint-pl
 
 Add it to your .eslintrc
 
-```.eslintrc
+```.eslintrc.js
 module.exports = {
   extends: ['@pianoforte/vue']
 }

@@ -1,40 +1,40 @@
 # @pianoforte/eslint-config
 
-Pianofore style eslint config for typescript.
+Pianofore style eslint config for vue with typescript.
 
 ## Install
 
-```sh
-npm install @pianoforte/eslint-config-typescript
-```
-
-Then install required eslint plugins
+Install config with required plugins
 
 ```sh
 npm install --save-dev \
+npm install @pianoforte/eslint-config-typescript
   @typescript-eslint/eslint-plugin @typescript-eslint/parser \
-  eslint-plugin-promise eslint-plugin-import
+  eslint-plugin-vue eslint-plugin-promise eslint-plugin-import
 ```
 
 ## Configure
 
 Add it to your .eslintrc
 
-```json
+```.eslintrc.js
 {
-  "extends": ["@pianoforte/typescript"],
-  "parserOptions": {
-    "project": "tsconfig.json"
+  "extends": ["@pianoforte/vue-typescript"]
+}
+```
+
+Then create tsconfig.eslint.json
+
+```tsconfig.eslint.json
+{
+  "extends": "tsconfig.json"
+  "include": {
+    "src/**/*.js",
+    "src/**/*.jsx",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    ".eslintrc.js",
+    // And lint target files like .eslintrc.js babel.config.js, postcss.js
   }
 }
 ```
-
-Create tsconfig.eslint.json
-
-```
-{
-  "extends": "tsconfig.json"
-}
-```
-
-See also [@typescript/parser](https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/parser#configuration)
