@@ -17,5 +17,6 @@ module.exports = {
       selector: 'property',
       format: ['camelCase', 'PascalCase'], // For components
     }],
+    '@typescript-eslint/restrict-template-expressions': 'off'
   },
 }
