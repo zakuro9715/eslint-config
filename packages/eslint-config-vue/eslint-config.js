@@ -45,6 +45,6 @@ module.exports = {
     'vue/require-prop-types': 'error',
     'vue/v-bind-style': 'error',
     'vue/v-slot-style': 'error',
-    '@typescript-eslint/restrict-template-expressions': 'off' // avoid error when use computed in template.
+    '@typescript-eslint/restrict-template-expressions': 'off', // avoid error when use computed in template.
   },
 }
