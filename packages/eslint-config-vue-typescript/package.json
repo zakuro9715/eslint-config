@@ -42,7 +42,7 @@
     "eslint": "^7.1.0",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-vue": "^6.2.2",
+    "eslint-plugin-vue": "^7.0.0-beta.0",
     "typescript": "^3.9.3"
   },
   "peerDependencies": {
@@ -50,7 +50,7 @@
     "eslint": "^7.1.0",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-vue": "^6.2.2"
+    "eslint-plugin-vue": "^7.0.0-beta.0"
   },
   "dependencies": {
     "@pianoforte/eslint-config-typescript": "^1.2.0",
