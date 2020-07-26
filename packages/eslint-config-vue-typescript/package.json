@@ -1,6 +1,6 @@
 {
   "name": "@pianoforte/eslint-config-vue-typescript",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "description": "Pianoforte style eslint config for vue with typescript",
   "main": "index.js",
   "scripts": {
@@ -53,8 +53,8 @@
     "eslint-plugin-vue": "^7.0.0-beta.0"
   },
   "dependencies": {
-    "@pianoforte/eslint-config-typescript": "^1.2.0",
-    "@pianoforte/eslint-config-vue": "^1.3.2",
+    "@pianoforte/eslint-config-typescript": "^1.3.3",
+    "@pianoforte/eslint-config-vue": "^1.3.3",
     "@typescript-eslint/parser": "^3.7.0",
     "@vue/eslint-config-typescript": "^5.0.2"
   }
