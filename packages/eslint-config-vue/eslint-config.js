@@ -93,4 +93,12 @@ module.exports = {
     'vue/v-on-function-call': ['error', 'never'],
     '@typescript-eslint/restrict-template-expressions': 'off', // avoid error when use computed in template.
   },
+  overrides: [
+    {
+      files: ['**/main.js'],
+      rules: {
+        'vue/require-name-property': 'off',
+      },
+    },
+  ],
 }
