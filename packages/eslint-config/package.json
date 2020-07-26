@@ -4,8 +4,7 @@
   "description": "Pianoforte style eslint config",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint --ext .js --ignore-path ../../.gitignore .",
-    "test": "mocha --color tests/test.js"
+    "lint": "eslint --ext .js --ignore-path ../../.gitignore ."
   },
   "engines": {
     "node": ">=12"
@@ -41,11 +40,8 @@
   },
   "devDependencies": {
     "eslint": "^7.1.0",
-    "eslint-config-rule-tester": "github:zakuro9715/eslint-config-rule-tester#dev",
     "eslint-plugin-import": "^2.20.2",
-    "eslint-plugin-promise": "^4.2.1",
-    "glob": "^7.1.6",
-    "mocha": "^7.2.0"
+    "eslint-plugin-promise": "^4.2.1"
   },
   "peerDependencies": {
     "eslint": "^7.1.0",
