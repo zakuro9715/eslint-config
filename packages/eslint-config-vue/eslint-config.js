@@ -52,17 +52,6 @@ module.exports = {
     }],
     'vue/mustache-interpolation-spacing': ['error', 'always'],
     'vue/name-property-casing': ['error', 'PascalCase'],
-    'vue/no-bare-strings-in-template': ['warn', {
-      "allowlist": [
-        "(", ")", ",", ".", "&", "+", "-", "=", "*", "/", "#", "%", "!", "?", ":", "[", "]", "{", "}", "<", ">",
-        "\u00b7", "\u2022", "\u2010", "\u2013", "\u2014", "\u2212", "|",
-      ],
-      "attributes": {
-        "/.+/": ["title", "aria-label", "aria-placeholder", "aria-roledescription", "aria-valuetext"],
-        "img": ["alt"],
-      },
-      "directives": ["v-text"],
-    }],
     'vue/no-boolean-default': 'error',
     'vue/no-template-shadow': 'error',
     'vue/no-empty-component-block': 'warn',
