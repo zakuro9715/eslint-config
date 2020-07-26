@@ -17,5 +17,9 @@ Pianoforte style eslint configs
 
 ```sh
 $ npm install   # run `npm install` for all packages. Then run `lerna bootrap`.
-$ npm run lint
 ```
+
+- npm run lint: Lint all packages
+- npm run publish: Publish package
+- npm run check-deps: Show updatable dependencies
+- npm run update-deps: Update all dependencies

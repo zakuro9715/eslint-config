@@ -21,9 +21,12 @@
     "bootstrap": "lerna bootstrap --hoist",
     "lint": "lerna run lint",
     "publish": "lerna publish",
-    "clean": "lerna clean && rm -rf ./node_modules"
+    "clean": "lerna clean && rm -rf ./node_modules",
+    "update-deps": "./scripts/update-deps.zsh",
+    "check-deps": "./scripts/update-deps.zsh --dry-run"
   },
   "devDependencies": {
-    "lerna": "^3.20.2"
+    "lerna": "^3.22.1",
+    "npm-check-updates": "^7.0.2"
   }
 }
