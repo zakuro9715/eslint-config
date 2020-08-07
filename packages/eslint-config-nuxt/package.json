@@ -1,6 +1,6 @@
 {
   "name": "@pianoforte/eslint-config-nuxt",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Pianoforte style eslint-config for nuxt",
   "main": "index.js",
   "scripts": {
