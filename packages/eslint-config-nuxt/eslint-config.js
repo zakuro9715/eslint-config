@@ -8,7 +8,7 @@ module.exports = {
   ],
   overrides: [
     {
-      files: ['layouts/**/*.vue', 'pages/**/*.vue'],
+      files: ['**/layouts/**/*.vue', '**/pages/**/*.vue'],
       rules: {
         'vue/require-name-property': 'off',
       },
