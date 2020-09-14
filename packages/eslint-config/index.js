@@ -10,6 +10,9 @@ module.exports = {
     ecmaVersion: '2020',
     sourceType: 'module',
   },
+  env: {
+    node: true,
+  },
   overrides: [
     {
       files: '**/*.spec.{j,t}s',
