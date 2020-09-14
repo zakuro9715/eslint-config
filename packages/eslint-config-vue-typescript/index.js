@@ -18,5 +18,6 @@ module.exports = {
       format: ['camelCase', 'PascalCase'], // For components
     }],
     '@typescript-eslint/restrict-template-expressions': 'off',
+    'vue/require-direct-export': 'off', // https://github.com/vuejs/eslint-plugin-vue/issues/907
   },
 }
