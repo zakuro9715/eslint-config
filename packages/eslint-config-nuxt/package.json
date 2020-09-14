@@ -1,6 +1,6 @@
 {
   "name": "@zakuro9715/eslint-config-nuxt",
-  "version": "1.4.1",
+  "version": "2.0.0",
   "description": "zakuro's eslint-config for nuxt",
   "main": "index.js",
   "scripts": {
@@ -36,7 +36,7 @@
     "url": "https://github.com/zakuro9715/eslint-config/issues"
   },
   "dependencies": {
-    "@zakuro9715/eslint-config-vue": "^1.4.0"
+    "@zakuro9715/eslint-config-vue": "^2.0.0"
   },
   "devDependencies": {
     "eslint": "^7.5.0",
