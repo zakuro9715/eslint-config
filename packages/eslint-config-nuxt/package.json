@@ -1,7 +1,7 @@
 {
-  "name": "@pianoforte/eslint-config-nuxt",
+  "name": "@zakuro9715/eslint-config-nuxt",
   "version": "1.4.1",
-  "description": "Pianoforte style eslint-config for nuxt",
+  "description": "zakuro's eslint-config for nuxt",
   "main": "index.js",
   "scripts": {
     "lint": "eslint --ext .js,.html --ignore-path ../../.gitignore ."
@@ -23,20 +23,20 @@
   ],
   "author": {
     "name": "zakulo",
-    "email": "zakuro@pianoforte.dev",
+    "email": "zakuro@zakuro9715.dev",
     "url": "https://z@kuro.red"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/pianoforte/eslint-config.git",
+    "url": "git+ssh://git@github.com/zakuro9715/eslint-config.git",
     "directory": "packages/eslint-config-nuxt"
   },
-  "homepage": "https://github.com/team-pianoforte/eslint-config/tree/master/packages/eslint-config-nuxt",
+  "homepage": "https://github.com/zakuro9715/eslint-config/tree/master/packages/eslint-config-nuxt",
   "bugs": {
-    "url": "https://github.com/team-pianoforte/eslint-config/issues"
+    "url": "https://github.com/zakuro9715/eslint-config/issues"
   },
   "dependencies": {
-    "@pianoforte/eslint-config-vue": "^1.4.0"
+    "@zakuro9715/eslint-config-vue": "^1.4.0"
   },
   "devDependencies": {
     "eslint": "^7.5.0",

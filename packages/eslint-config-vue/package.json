@@ -1,7 +1,7 @@
 {
-  "name": "@pianoforte/eslint-config-vue",
+  "name": "@zakuro9715/eslint-config-vue",
   "version": "1.4.0",
-  "description": "Pianoforte style eslint-config for vue",
+  "description": "zakuro's eslint-config for vue",
   "main": "index.js",
   "scripts": {
     "lint": "eslint --ext .js,.html --ignore-path ../../.gitignore ."
@@ -21,22 +21,18 @@
     "eslint",
     "eslintconfig"
   ],
-  "author": {
-    "name": "zakulo",
-    "email": "zakuro@pianoforte.dev",
-    "url": "https://z@kuro.red"
-  },
+  "author": "zakuro <z@kuro.red>",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/pianoforte/eslint-config.git",
+    "url": "git+ssh://git@github.com/zakuro9715/eslint-config.git",
     "directory": "packages/eslint-config-vue"
   },
-  "homepage": "https://github.com/team-pianoforte/eslint-config/tree/master/packages/eslint-config-vue",
+  "homepage": "https://github.com/zakuro9715/eslint-config/tree/master/packages/eslint-config-vue",
   "bugs": {
-    "url": "https://github.com/team-pianoforte/eslint-config/issues"
+    "url": "https://github.com/zakuro9715/eslint-config/issues"
   },
   "dependencies": {
-    "@pianoforte/eslint-config": "^1.3.3",
+    "@zakuro9715/eslint-config": "^1.3.3",
     "eslint-plugin-vue": "^7.0.0-beta.0",
     "vue-eslint-parser": "^7.1.0"
   },

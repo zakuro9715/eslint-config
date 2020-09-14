@@ -1,9 +1,9 @@
-# @pianoforte/eslint-config-typescript
+# @zakuro9715/eslint-config-typescript
 
-[![npm version](https://badge.fury.io/js/%40pianoforte%2Feslint-config-typescript.svg)](https://badge.fury.io/js/%40pianoforte%2Feslint-config-typescript)
+[![npm version](https://badge.fury.io/js/%40zakuro9715%2Feslint-config-typescript.svg)](https://badge.fury.io/js/%40zakuro9715%2Feslint-config-typescript)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-Pianofore style eslint config for typescript.
+zakuro's eslint config for typescript.
 
 ## Install
 
@@ -11,7 +11,7 @@ Install config with required plugins
 
 ```sh
 npm install --save-dev \
-npm install @pianoforte/eslint-config-typescript
+npm install @zakuro9715/eslint-config-typescript
   @typescript-eslint/eslint-plugin @typescript-eslint/parser \
   eslint-plugin-promise eslint-plugin-import
 ```
@@ -22,7 +22,7 @@ Add it to your .eslintrc
 
 ```.eslintrc
 {
-  "extends": ["@pianoforte/typescript"]
+  "extends": ["@zakuro9715/typescript"]
 }
 ```
 

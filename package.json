@@ -1,19 +1,15 @@
 {
-  "name": "root",
+  "name": "lint",
   "private": true,
-  "author": {
-    "name": "zakuro",
-    "email": "zakuro@pianoforte.dev",
-    "url": "https://za.kuro.red"
-  },
+  "author": "zakuro <z@kuro.red>",
   "license": "GPL-3.0",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:team-pianoforte/eslint-config.git"
+    "url": "git+ssh://git@github.com:zakuro9715/lint"
   },
-  "homepage": "https://github.com/team-pianoforte/eslint-config",
+  "homepage": "https://github.com/zakuro9715/lint",
   "bugs": {
-    "url": "https://github.com/team-pianoforte/eslint-config/issues"
+    "url": "https://github.com/zakuro9715/lint/issues"
   },
   "scripts": {
     "install-packages": "lerna exec -- npm install",

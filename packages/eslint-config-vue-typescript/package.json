@@ -1,7 +1,7 @@
 {
-  "name": "@pianoforte/eslint-config-vue-typescript",
+  "name": "@zakuro9715/eslint-config-vue-typescript",
   "version": "1.4.0",
-  "description": "Pianoforte style eslint config for vue with typescript",
+  "description": "zakuro's eslint config for vue with typescript",
   "main": "index.js",
   "scripts": {
     "lint": "eslint --ext .js,.html --ignore-path ../../.gitignore ."
@@ -21,20 +21,16 @@
     "eslint",
     "eslintconfig"
   ],
-  "author": {
-    "name": "zakuro",
-    "email": "zakuro@pianoforte.dev",
-    "url": "z@kuro.red"
-  },
-  "lisence": "Mit",
+  "author": "zakuro <z@kuro.red>",
+  "lisence": "GPL-3.0",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/pianoforte/eslint-config.git",
+    "url": "git+ssh://git@github.com/zakuro9715/eslint-config.git",
     "directory": "packages/eslint-config-vue-typescript"
   },
-  "homepage": "https://github.com/team-pianforte/eslint-ronfig/tree/master/packages/eslint-config-vue-typescript",
+  "homepage": "https://github.com/pianforte/eslint-ronfig/tree/master/packages/eslint-config-vue-typescript",
   "bugs": {
-    "url": "https://github.com/team-pianoforte/eslint-config/issues"
+    "url": "https://github.com/zakuro9715/eslint-config/issues"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^3.7.0",
@@ -53,8 +49,8 @@
     "eslint-plugin-vue": "^7.0.0-beta.0"
   },
   "dependencies": {
-    "@pianoforte/eslint-config-typescript": "^1.3.3",
-    "@pianoforte/eslint-config-vue": "^1.4.0",
+    "@zakuro9715/eslint-config-typescript": "^1.3.3",
+    "@zakuro9715/eslint-config-vue": "^1.4.0",
     "@typescript-eslint/parser": "^3.7.0",
     "@vue/eslint-config-typescript": "^5.0.2"
   }

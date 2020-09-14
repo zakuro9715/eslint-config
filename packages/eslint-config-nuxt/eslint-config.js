@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
     'plugin:nuxt/recommended',
-    '@pianoforte/vue',
+    '@zakuro9715/vue',
   ],
   plugins: [
     'nuxt',
