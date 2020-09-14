@@ -10,35 +10,14 @@ zakuro's eslint config for vue with typescript.
 Install config with required plugins.
 
 ```sh
-npm install --save-dev \
-  @zakuro9715/eslint-config-vue-typescript \
-  @typescript-eslint/eslint-plugin @typescript-eslint/parser \
-  eslint-plugin-vue@next eslint-plugin-promise eslint-plugin-import
+npm install --save-dev @zakuro9715/eslint-config-vue-typescript \
+npx install-peerdeps --dev @zakuro9715/eslint-config-vue-typescript
 ```
 
 ## Configure
 
-Add it to your .eslintrc
-
 ```.eslintrc
 {
   "extends": ["@zakuro9715/vue-typescript"]
-}
-```
-
-Then create tsconfig.eslint.json
-
-```tsconfig.eslint.json
-{
-  "extends": "tsconfig.json"
-  "include": {
-    "src/**/*.js",
-    "src/**/*.jsx",
-    "src/**/*.ts",
-    "src/**/*.tsx",
-    "src/**/*.vue",
-    ".eslintrc.js",
-    // And lint target files like .eslintrc.js babel.config.js, postcss.js
-  }
 }
 ```

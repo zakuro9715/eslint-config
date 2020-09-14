@@ -10,12 +10,11 @@ zakuro's eslint config for vue.
 Install config with required plugins.
 
 ```
-npm install --save-dev @zakuro9715/eslint-config-vue eslint-plugin-vue@next eslint-plugin-promise eslint-plugin-import
+npm install --save-dev @zakuro9715/eslint-config-vue
+npx install-peerdeps --dev @zakuro9715/eslint-config-vue
 ```
 
 ## Configure
-
-Add it to your .eslintrc
 
 ```.eslintrc
 module.exports = {

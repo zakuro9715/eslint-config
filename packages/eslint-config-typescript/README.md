@@ -10,34 +10,14 @@ zakuro's eslint config for typescript.
 Install config with required plugins
 
 ```sh
-npm install --save-dev \
-npm install @zakuro9715/eslint-config-typescript
-  @typescript-eslint/eslint-plugin @typescript-eslint/parser \
-  eslint-plugin-promise eslint-plugin-import
+npm install --save-dev @zakuro9715/eslint-config-typescript
+npx install-peerdeps --dev @zakuro9715/eslint-config-typescript
 ```
 
 ## Configure
 
-Add it to your .eslintrc
-
 ```.eslintrc
 {
   "extends": ["@zakuro9715/typescript"]
-}
-```
-
-Then create tsconfig.eslint.json
-
-```tsconfig.eslint.json
-{
-  "extends": "tsconfig.json"
-  "include": {
-    "src/**/*.js",
-    "src/**/*.jsx",
-    "src/**/*.ts",
-    "src/**/*.tsx",
-    ".eslintrc.js",
-    // And lint target files like .eslintrc.js babel.config.js, postcss.js
-  }
 }
 ```

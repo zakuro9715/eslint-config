@@ -8,15 +8,13 @@ zakuro's eslint config for nuxt.
 
 ## Install
 
-Install config with eslint plugin.
 
 ```
-npm install --save-dev @zakuro9715/eslint-config-nuxt eslint-plugin-nuxt eslint-plugin-vue@next eslint-plugin-promise eslint-plugin-import
+npm install --save-dev @zakuro9715/eslint-config-nuxt
+npx install-peerdeps --dev @zakuro9715/eslint-config-nuxt
 ```
 
 ## Configure
-
-Add it to your .eslintrc
 
 ```.eslintrc
 module.exports = {

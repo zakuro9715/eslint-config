@@ -7,15 +7,12 @@ zakuro's eslint config.
 
 ## Install
 
-Install config with required plugins.
-
 ```
-npm install --save-dev @zakuro9715/eslint-config eslint-plugin-promise eslint-plugin-import
+npm install --save-dev @zakuro9715/eslint-config
+npx install-peerdeps --dev @zakuro9715/eslint-config
 ```
 
 ## Configure
-
-Add it to your .eslintrc
 
 ```.eslintrc
 module.exports = {
