@@ -16,7 +16,8 @@
   "license": "GPL-3.0",
   "files": [
     "index.js",
-    "naming-conventions.js"
+    "naming-conventions.js",
+    "tsconfig.eslint.json"
   ],
   "keywords": [
     "eslint",
