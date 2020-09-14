@@ -14,8 +14,7 @@
   },
   "license": "GPL-3.0",
   "files": [
-    "index.js",
-    "eslint-config.js"
+    "index.js"
   ],
   "keywords": [
     "eslint",
