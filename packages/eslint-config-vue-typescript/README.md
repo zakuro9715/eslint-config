@@ -10,7 +10,7 @@ zakuro's eslint config for vue with typescript.
 Install config with required plugins.
 
 ```sh
-npm install --save-dev @zakuro9715/eslint-config-vue-typescript \
+npm install --save-dev @zakuro9715/eslint-config-vue-typescript
 npx install-peerdeps --dev @zakuro9715/eslint-config-vue-typescript
 ```
 
