@@ -3,7 +3,7 @@ module.exports = {
     'eslint:recommended',
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
-    '@pianoforte',
+    '@zakuro9715',
   ],
   plugins: [
     '@typescript-eslint',

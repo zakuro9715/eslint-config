@@ -1,7 +1,7 @@
 {
-  "name": "@pianoforte/eslint-config",
+  "name": "@zakuro9715/eslint-config",
   "version": "1.3.3",
-  "description": "Pianoforte style eslint config",
+  "description": "zakuro's eslint config",
   "main": "index.js",
   "scripts": {
     "lint": "eslint --ext .js --ignore-path ../../.gitignore ."
@@ -20,20 +20,16 @@
     "eslint",
     "eslintconfig"
   ],
-  "author": {
-    "name": "zakuro",
-    "email": "zakuro@pianoforte.dev",
-    "url": "https://za.kuro.red"
-  },
+  "author": "zakuro <z@kuro.red>",
   "license": "GPL-3.0",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/team-pianoforte/eslint-config.git",
+    "url": "git+ssh://git@github.com/zakuro9715/eslint-config.git",
     "directory": "packages/eslint-config"
   },
-  "homepage": "https://github.com/team-pianoforte/eslint-config/tree/master/packages/eslint-config",
+  "homepage": "https://github.com/zakuro9715/eslint-config/tree/master/packages/eslint-config",
   "bugs": {
-    "url": "https://github.com/team-pianoforte/eslint-config/issues"
+    "url": "https://github.com/zakuro9715/eslint-config/issues"
   },
   "dependencies": {
     "babel-eslint": "^10.1.0"

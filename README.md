@@ -1,17 +1,17 @@
-#Pianoforte eslint config
+# zakuro9715/eslint-config
 
-Pianoforte style eslint configs
+zakuro's eslint configs
 
-![](https://github.com/team-pianoforte/eslint-config/workflows/lint/badge.svg)
-[![npm version](https://badge.fury.io/js/%40pianoforte%2Feslint-config.svg)](https://badge.fury.io/js/%40pianoforte%2Feslint-config)
+![](https://github.com/zakuro9715/eslint-config/workflows/lint/badge.svg)
+[![npm version](https://badge.fury.io/js/%40zakuro9715%2Feslint-config.svg)](https://badge.fury.io/js/%40zakuro9715%2Feslint-config)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ## packages
 
-- [@pianoforte/eslint-config](./packages/eslint-config)
-- [@pianoforte/eslint-config-typescript](./packages/eslint-config-typescript)
-- [@pianoforte/eslint-config-vue](./packages/eslint-config-vue)
-- [@pianoforte/eslint-config-nuxt](./packages/eslint-config-nuxt)
+- [@zakuro9715/eslint-config](./packages/eslint-config)
+- [@zakuro9715/eslint-config-typescript](./packages/eslint-config-typescript)
+- [@zakuro9715/eslint-config-vue](./packages/eslint-config-vue)
+- [@zakuro9715/eslint-config-nuxt](./packages/eslint-config-nuxt)
 
 ## development
 

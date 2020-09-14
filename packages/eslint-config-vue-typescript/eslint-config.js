@@ -1,11 +1,11 @@
-const namingConventions = require('@pianoforte/eslint-config-typescript/naming-conventions')
+const namingConventions = require('@zakuro9715/eslint-config-typescript/naming-conventions')
 
 module.exports = {
   extends: [
-    '@pianoforte',
+    '@zakuro9715',
     '@vue/typescript',
-    '@pianoforte/vue',
-    '@pianoforte/typescript',
+    '@zakuro9715/vue',
+    '@zakuro9715/typescript',
   ],
   parser: 'vue-eslint-parser',
   parserOptions: {
