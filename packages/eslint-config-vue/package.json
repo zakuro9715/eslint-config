@@ -1,6 +1,6 @@
 {
   "name": "@zakuro9715/eslint-config-vue",
-  "version": "2.2.0",
+  "version": "2.3.4",
   "description": "zakuro's eslint-config for vue",
   "main": "index.js",
   "scripts": {
@@ -32,7 +32,7 @@
     "url": "https://github.com/zakuro9715/eslint-config/issues"
   },
   "dependencies": {
-    "@zakuro9715/eslint-config": "^2.2.0",
+    "@zakuro9715/eslint-config": "^2.3.4",
     "vue-eslint-parser": "^7.1.0"
   },
   "devDependencies": {
