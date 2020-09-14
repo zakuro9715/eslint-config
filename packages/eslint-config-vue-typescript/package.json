@@ -33,24 +33,24 @@
     "url": "https://github.com/zakuro9715/eslint-config/issues"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^3.7.0",
-    "@typescript-eslint/parser": "^3.7.0",
-    "eslint": "^7.5.0",
+    "@typescript-eslint/eslint-plugin": "^4.1.0",
+    "@typescript-eslint/parser": "^4.1.0",
+    "eslint": "^7.9.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-vue": "^7.0.0-beta.0",
-    "typescript": "^3.9.7"
+    "typescript": "^4.0.2"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^3.7.0",
-    "eslint": "^7.5.0",
+    "@typescript-eslint/eslint-plugin": "^4.1.0",
+    "eslint": "^7.9.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-vue": "^7.0.0-beta.0"
   },
   "dependencies": {
-    "@typescript-eslint/parser": "^3.7.0",
-    "@vue/eslint-config-typescript": "^5.0.2",
+    "@typescript-eslint/parser": "^4.1.0",
+    "@vue/eslint-config-typescript": "^5.1.0",
     "@zakuro9715/eslint-config-typescript": "^2.0.0",
     "@zakuro9715/eslint-config-vue": "^2.0.0"
   }
