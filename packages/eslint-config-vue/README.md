@@ -10,7 +10,7 @@ zakuro's eslint config for vue.
 Install config with required plugins.
 
 ```
-npm install --save-dev @zakuro9715/eslint-config-vue eslint-plugin-vue@7.0.0-beta.0 eslint-plugin-promise eslint-plugin-import
+npm install --save-dev @zakuro9715/eslint-config-vue eslint-plugin-vue@next eslint-plugin-promise eslint-plugin-import
 ```
 
 ## Configure

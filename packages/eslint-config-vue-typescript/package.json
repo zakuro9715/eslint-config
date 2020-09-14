@@ -37,18 +37,19 @@
     "eslint": "^7.9.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-vue": "^7.0.0-beta.0",
+    "eslint-plugin-vue": "^7.0.0-beta.3",
     "typescript": "^4.0.2"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.1.0",
+    "@typescript-eslint/parser": "^4.1.0",
     "eslint": "^7.9.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-vue": "^7.0.0-beta.0"
+    "eslint-plugin-vue": "^7.0.0-beta.3",
+    "typescript": "^4.0.2"
   },
   "dependencies": {
-    "@typescript-eslint/parser": "^4.1.0",
     "@vue/eslint-config-typescript": "^5.1.0",
     "@zakuro9715/eslint-config-typescript": "^2.1.0",
     "@zakuro9715/eslint-config-vue": "^2.1.0"

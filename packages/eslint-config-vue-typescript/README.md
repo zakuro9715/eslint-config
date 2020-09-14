@@ -13,7 +13,7 @@ Install config with required plugins.
 npm install --save-dev \
   @zakuro9715/eslint-config-vue-typescript \
   @typescript-eslint/eslint-plugin @typescript-eslint/parser \
-  eslint-plugin-vue eslint-plugin-promise eslint-plugin-import
+  eslint-plugin-vue@next eslint-plugin-promise eslint-plugin-import
 ```
 
 ## Configure
