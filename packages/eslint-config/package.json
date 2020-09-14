@@ -30,9 +30,6 @@
   "bugs": {
     "url": "https://github.com/zakuro9715/eslint-config/issues"
   },
-  "dependencies": {
-    "babel-eslint": "^10.1.0"
-  },
   "devDependencies": {
     "eslint": "^7.9.0",
     "eslint-plugin-import": "^2.22.0",
