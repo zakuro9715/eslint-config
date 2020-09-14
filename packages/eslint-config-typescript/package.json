@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint --ext .js,.html --ignore-path ../../.gitignore .",
-    "postinstall": "cp tsconfig.eslint.json $INIT_CWD"
+    "postinstall": "echo $INIT_CWD && pwd"
   },
   "engines": {
     "node": ">=12"
