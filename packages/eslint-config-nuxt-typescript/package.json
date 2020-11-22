@@ -1,0 +1,61 @@
+{
+  "name": "@zakuro9715/eslint-config-nuxt-typescript",
+  "version": "2.4.0",
+  "description": "zakuro's eslint config for nuxt with typescript",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --ext .js,.html --ignore-path ../../.gitignore ."
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "GPL-3.0",
+  "files": [
+    "index.js",
+    "next.js"
+  ],
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "zakuro <z@kuro.red>",
+  "lisence": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zakuro9715/eslint-config.git",
+    "directory": "packages/eslint-config-nuxt-typescript"
+  },
+  "homepage": "https://github.com/pianforte/eslint-ronfig/tree/master/packages/eslint-config-nuxt-typescript",
+  "bugs": {
+    "url": "https://github.com/zakuro9715/eslint-config/issues"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.1.0",
+    "@typescript-eslint/parser": "^4.1.0",
+    "eslint": "^7.9.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-vue": "^7.0.0-beta.3",
+    "typescript": "^4.0.2"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.1.0",
+    "@typescript-eslint/parser": "^4.1.0",
+    "eslint": "^7.9.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-vue": "^7.0.0-beta.3",
+    "typescript": "^4.0.2"
+  },
+  "dependencies": {
+    "@vue/eslint-config-typescript": "^5.1.0",
+    "@zakuro9715/eslint-config-nuxt": "^2.3.5",
+    "@zakuro9715/eslint-config-typescript": "^2.4.0",
+    "@zakuro9715/eslint-config-vue-typescript": "^2.4.0"
+  }
+}
