@@ -54,8 +54,8 @@
   },
   "dependencies": {
     "@vue/eslint-config-typescript": "^7.0.0",
-    "@zakuro9715/eslint-config-nuxt": "^2.3.6",
-    "@zakuro9715/eslint-config-typescript": "^2.3.6",
-    "@zakuro9715/eslint-config-vue-typescript": "^2.3.6"
+    "@zakuro9715/eslint-config-nuxt": "^2.4.0",
+    "@zakuro9715/eslint-config-typescript": "^2.4.0",
+    "@zakuro9715/eslint-config-vue-typescript": "^2.4.0"
   }
 }

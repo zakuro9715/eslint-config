@@ -1,6 +1,6 @@
 {
   "name": "@zakuro9715/eslint-config-typescript",
-  "version": "2.3.6",
+  "version": "2.4.0",
   "description": "zakuro's eslint config for typescript",
   "main": "index.js",
   "scripts": {
@@ -51,6 +51,6 @@
     "typescript": "^4.1.2"
   },
   "dependencies": {
-    "@zakuro9715/eslint-config": "^2.3.4"
+    "@zakuro9715/eslint-config": "^2.4.0"
   }
 }
