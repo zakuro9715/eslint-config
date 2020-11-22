@@ -1,6 +1,6 @@
 {
   "name": "@zakuro9715/eslint-config-vue",
-  "version": "2.3.4",
+  "version": "2.3.6",
   "description": "zakuro's eslint-config for vue",
   "main": "index.js",
   "scripts": {
