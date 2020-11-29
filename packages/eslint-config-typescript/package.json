@@ -16,6 +16,7 @@
   "license": "GPL-3.0",
   "files": [
     "index.js",
+    "ts.js",
     "naming-conventions.js",
     "tsconfig.eslint.json"
   ],
