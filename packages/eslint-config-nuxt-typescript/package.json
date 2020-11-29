@@ -1,6 +1,6 @@
 {
   "name": "@zakuro9715/eslint-config-nuxt-typescript",
-  "version": "3.0.0-alpha.1",
+  "version": "3.0.0",
   "description": "zakuro's eslint config for nuxt with typescript",
   "main": "index.js",
   "scripts": {
