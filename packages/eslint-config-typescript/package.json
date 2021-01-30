@@ -13,7 +13,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "license": "GPL-3.0",
+  "license": "Apache-2.0",
   "files": [
     "index.js",
     "ts.js",
@@ -25,7 +25,7 @@
     "eslintconfig"
   ],
   "author": "zakuro <z@kuro.red>",
-  "lisence": "GPL-3.0",
+  "lisence": "Apache-2.0",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/zakuro9715/eslint-config.git",
