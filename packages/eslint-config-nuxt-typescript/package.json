@@ -1,6 +1,6 @@
 {
   "name": "@zakuro9715/eslint-config-nuxt-typescript",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "zakuro's eslint config for nuxt with typescript",
   "main": "index.js",
   "scripts": {
@@ -55,8 +55,8 @@
   "dependencies": {
     "@nuxtjs/eslint-config-typescript": "^5.0.0",
     "@vue/eslint-config-typescript": "^7.0.0",
-    "@zakuro9715/eslint-config-nuxt": "^3.0.0",
-    "@zakuro9715/eslint-config-typescript": "^3.0.0",
-    "@zakuro9715/eslint-config-vue-typescript": "^3.0.0"
+    "@zakuro9715/eslint-config-nuxt": "^4.0.0",
+    "@zakuro9715/eslint-config-typescript": "^4.0.0",
+    "@zakuro9715/eslint-config-vue-typescript": "^4.0.0"
   }
 }
