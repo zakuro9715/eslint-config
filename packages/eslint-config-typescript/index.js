@@ -5,7 +5,7 @@ module.exports = {
   ],
   overrides: [
     {
-      files: ['**/*.(ts|tsx)'],
+      files: ['**/*.ts', '**/*.tsx'],
       extends: ['@zakuro9715/eslint-config-typescript/ts']
     },
   ],
