@@ -30,6 +30,7 @@ module.exports = {
     'vue/component-definition-name-casing': ['error', 'PascalCase'],
     'vue/component-name-in-template-casing': ['error', 'PascalCase', {
       registeredComponentsOnly: true,
+      ignore: [/^Ion/],
     }],
     'vue/component-tags-order': ['error', {
       order: ['i18n', 'template', 'script', 'style'],
