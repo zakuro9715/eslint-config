@@ -4,7 +4,7 @@ zakuro's eslint configs
 
 ![](https://github.com/zakuro9715/eslint-config/workflows/lint/badge.svg)
 [![npm version](https://badge.fury.io/js/%40zakuro9715%2Feslint-config.svg)](https://badge.fury.io/js/%40zakuro9715%2Feslint-config)
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apach%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## packages
 
