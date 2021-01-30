@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
-    './index.js',
     'plugin:vue/vue3-recommended',
+    './index.js',
   ],
   rules: {
     'vue/no-multiple-template-root': 'off',
