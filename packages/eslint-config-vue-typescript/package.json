@@ -1,6 +1,6 @@
 {
   "name": "@zakuro9715/eslint-config-vue-typescript",
-  "version": "3.0.0-alpha.2",
+  "version": "3.0.0-alpha.3",
   "description": "zakuro's eslint config for vue with typescript",
   "main": "index.js",
   "scripts": {
@@ -52,7 +52,7 @@
   },
   "dependencies": {
     "@vue/eslint-config-typescript": "^7.0.0",
-    "@zakuro9715/eslint-config-typescript": "^3.0.0-alpha.2",
+    "@zakuro9715/eslint-config-typescript": "^3.0.0-alpha.3",
     "@zakuro9715/eslint-config-vue": "^3.0.0-alpha.2"
   }
 }
