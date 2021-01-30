@@ -1,6 +1,6 @@
 {
   "name": "@zakuro9715/eslint-config-vue",
-  "version": "3.0.0-alpha.4",
+  "version": "3.0.0",
   "description": "zakuro's eslint-config for vue",
   "main": "index.js",
   "scripts": {
@@ -32,7 +32,7 @@
     "url": "https://github.com/zakuro9715/eslint-config/issues"
   },
   "dependencies": {
-    "@zakuro9715/eslint-config": "^3.0.0-alpha.2",
+    "@zakuro9715/eslint-config": "^3.0.0",
     "vue-eslint-parser": "^7.4.1"
   },
   "devDependencies": {
