@@ -6,7 +6,7 @@ module.exports = {
     '@zakuro9715/eslint-config-typescript',
   ],
   overrides: [{
-    files: ['*.vue'],
+    files: ['**/*.vue'],
     extends: [
       '@vue/typescript',
       '@zakuro9715/vue',
