@@ -5,11 +5,11 @@
   "license": "GPL-3.0",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:zakuro9715/lint"
+    "url": "git+ssh://git@github.com:zakuro9715/eslint-config"
   },
-  "homepage": "https://github.com/zakuro9715/lint",
+  "homepage": "https://github.com/zakuro9715/eslint-config",
   "bugs": {
-    "url": "https://github.com/zakuro9715/lint/issues"
+    "url": "https://github.com/zakuro9715/eslint-config/issues"
   },
   "scripts": {
     "install-packages": "lerna exec -- npm install",
